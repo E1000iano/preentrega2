@@ -1,16 +1,12 @@
 body {
-    background: linear-gradient(to bottom, #16222A, #3A6073); 
+    background: linear-gradient(to right, #4cb8c4, #3cd3ad); 
     min-height: 100vh;
     font-family: Helvetica, sans-serif;
 }    
 
-
-.headerFondo .navbar {
-    background-color: transparent !important;
-  }
-
 .container {
     margin-top: 150px;
+    height: 100vh;
 }
 
 .navbar-nav.navbar-center {
@@ -24,20 +20,22 @@ body {
     display: inline-block;
     border-radius: 10px;
     width: 600px;
-    height: 200px;
-    background-color: black;
-    opacity: 75%;
+    height:200px;
+    background: linear-gradient(to left, #4cb8c4, #3cd3ad);
 }
 
+/* .michi {
+} */
+
 h1 {
-    color: white;
+    color: bisque;
     margin: 20px;
 
 }
 
 p {
     margin-left: 20px;
-    color:bisque;
+    color:white;
 
 }
 
@@ -61,3 +59,5 @@ footer {
     padding: 5px;
     margin-left: 20px;
 }
+
+
