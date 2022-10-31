@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(to bottom, #16222A, #3A6073); 
+    min-height: 100vh;
+    font-family: Helvetica, sans-serif;
+}    
+
+
+.headerFondo .navbar {
+    background-color: transparent !important;
+  }
+
+.container {
+    margin-top: 150px;
+}
+
+.navbar-nav.navbar-center {
+    margin-top: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.box {
+    display: inline-block;
+    border-radius: 10px;
+    width: 600px;
+    height: 200px;
+    background-color: black;
+    opacity: 75%;
+}
+
+h1 {
+    color: white;
+    margin: 20px;
+
+}
+
+p {
+    margin-left: 20px;
+    color:bisque;
+
+}
+
+
+.instagram {
+    height: 28px;
+    width: 28px;
+
+}
+
+.linkedin {
+    height: 28px;
+    width: 28px;
+}
+
+.links {
+    margin-left: 20px;
+}
+
+footer {
+    padding: 5px;
+    margin-left: 20px;
+}
