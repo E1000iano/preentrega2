@@ -2,9 +2,11 @@
     box-sizing: border-box;
 }
 body {
-    background: linear-gradient(to right, #4cb8c4, #3cd3ad); 
-    background-repeat: no-repeat;
-    font-family: Helvetica, sans-serif;
+  background: #007991; 
+  background: -webkit-linear-gradient(to right, #007991, #78ffd6);
+  background: linear-gradient(to right, #007991, #78ffd6);
+  background-repeat: no-repeat;
+  font-family: Helvetica, sans-serif;
 }    
 
 .container {
@@ -12,11 +14,8 @@ body {
     height: 100vh;
 }
 
-.navbar-nav.navbar-center {
-    margin-top: 30px;
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
+.headerFondo {
+  background: linear-gradient(to right, #007991, #78ffd6);
 }
 
 .box {
@@ -27,10 +26,15 @@ body {
     background: linear-gradient(to left, #4cb8c4, #3cd3ad);
 }
 
-h1 {
+.hIndex {
     color: bisque;
     margin: 20px;
 
+}
+
+.hProyecto {
+  color: bisque;
+  text-align: center;
 }
 
 .p1 {
@@ -40,9 +44,9 @@ h1 {
 
 }
 
-footer {
-    padding: 5px;
-    margin-left: 20px;
+.parrafoProyecto {
+  text-align: center;
+
 }
 
 .instagram {
@@ -54,7 +58,6 @@ footer {
 .linkedin {
     height: 28px;
     width: 28px;
-    /* object-fit: contain; */
 }
 
 .links {
@@ -63,14 +66,22 @@ footer {
 
 .mcr {
     height: 400px;
-    object-fit:contain;
+    object-fit: contain;
 }
 
 
 
-@media (max-width: 601px) {
+footer {
+  padding: 5px;
+  margin-left: 20px;
+  position: relative;
+
+}
+
+
+@media (max-width: 680px) {
     .box {
-    width: 210px;
+    width: 250px;
     height:450px;
     margin-left: 70px;
     }
