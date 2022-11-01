@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(to right, #4cb8c4, #3cd3ad); 
-    min-height: 100vh;
+    background-repeat: no-repeat;
     font-family: Helvetica, sans-serif;
 }    
 
@@ -24,21 +24,23 @@ body {
     background: linear-gradient(to left, #4cb8c4, #3cd3ad);
 }
 
-/* .michi {
-} */
-
 h1 {
     color: bisque;
     margin: 20px;
 
 }
 
-p {
+.p1 {
     margin-left: 20px;
     color:white;
 
+
 }
 
+footer {
+    padding: 5px;
+    margin-left: 20px;
+}
 
 .instagram {
     height: 28px;
@@ -55,9 +57,25 @@ p {
     margin-left: 20px;
 }
 
-footer {
-    padding: 5px;
-    margin-left: 20px;
+
+@media (max-width: 600px) {
+    .box {
+    width: 210px;
+    height:450px;
+    margin-left: 70px;
+    }
+}
+
+@media (min-width: 601px) {
+    .box {
+        width: 500px;
+    }
 }
 
 
+@media (min-width: 1049px) {
+    .box {
+        width: 600px;
+    height:200px;
+    }
+}
